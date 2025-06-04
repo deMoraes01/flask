@@ -102,17 +102,17 @@
      <header>
     <h1>Meu Site</h1>
     <nav>
-      <button class="start"><a href="#">Início</a></button>
+      <button class="start"><a href="{{url_for('novapag')}}">Início</a></button>
       <button class="about"><a href="##">Sobre</a></button>
       <button class="contact"><a href="###">Contato</a></button>
     </nav>
   </header>
 
   <main>
-    <h1>Bem-vindo ao meu site!</h1>
+    <h1>Bem-vindo {{context.usuario}} ao meu site!</h1>
     <p>bem vindo novamente ao meu site</p>
-    <button class="btn" >Saiba Mais</button>
+    <button class="btn">Saiba Mais</button>
   </main>
 
 </body>
-</html>
+</htfml>
