@@ -1,1 +1,0 @@
-from trabalho import app
